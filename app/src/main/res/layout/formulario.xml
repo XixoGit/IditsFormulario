@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        android:ems="10"
+        android:id="@+id/nombre_per" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Apellido"
+        android:ems="10"
+        android:id="@+id/apellido_per" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:hint="D.N.I"
+        android:ems="10"
+        android:id="@+id/dni_per"
+        />
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Cuil"
+        android:ems="10"
+        android:id="@+id/cuil_per" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="phone"
+        android:hint="telefono"
+        android:ems="10"
+        android:id="@+id/telefono_per"
+         />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        android:ems="10"
+        android:id="@+id/email_per"
+      />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="localidad"
+        android:ems="10"
+        android:id="@+id/localidad_per"
+        />
+
+    <Spinner
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/provincias"
+        android:id="@+id/prov_spinner_per"
+        />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:hint="cod postal"
+        android:ems="10"
+        android:id="@+id/codpostal_per"
+        />
+
+    <DatePicker
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="dfdad"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <RadioButton
+            android:text="si"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <RadioButton
+            android:text="no"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
